@@ -1,0 +1,13 @@
+.btn-submit {
+    background-color: $bg-color-orange;
+    border: none;
+    color:$color-white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+.btn-submit:hover {
+    transform: scale(0.9);
+
+}
