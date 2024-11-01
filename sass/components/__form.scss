@@ -1,0 +1,40 @@
+
+
+.contact-us-form {
+    margin-top: 40px;
+    flex: 1;
+}
+h2 {
+    text-align: center;
+    color: #fff;
+}
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    flex: 1;
+    margin: 10px;
+}
+.form-control {
+    width: 100%;
+    color: #fff;
+    padding: 0.775rem 0.75rem;
+    line-height: 1.5;
+    background-color: #0a0a0abd;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+.form-control:focus+label {
+    outline: none;
+    font-size: 15px;
+}

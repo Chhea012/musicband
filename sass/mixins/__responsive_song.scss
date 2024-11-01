@@ -377,6 +377,14 @@
         }
     }
 
+        .container {
+            margin-top: 30%;
+            h1 {
+                text-align: center;
+                font-size: 30px;
+                color: $color-orange;
+            }
+        }
     .container-6 {
         display: flex;
         justify-content: center;

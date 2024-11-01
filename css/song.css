@@ -833,6 +833,14 @@ ul a {
   nav .button {
     display: none;
   }
+  .container {
+    margin-top: 30%;
+  }
+  .container h1 {
+    text-align: center;
+    font-size: 30px;
+    color: orangered;
+  }
   .container-6 {
     display: flex;
     justify-content: center;

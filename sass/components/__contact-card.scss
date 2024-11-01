@@ -1,0 +1,36 @@
+
+.contact-us-content {
+    display: flex;
+    background-color: #333;
+}
+.contact-us-card {
+    flex: 1;
+}
+.card {
+    background: rgba(0, 0, 0, 0.6117647059);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.fa-solid {
+    font-size: 20px;
+    color: orangered;
+    margin: 10px;
+}
+.card-image img {
+    width: 85%;
+    margin: 50px;
+    margin-top: 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3s;
+}
+
+.card-image img:hover {
+    transform: scale(1.1);
+}

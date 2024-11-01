@@ -1,0 +1,33 @@
+
+@import '__mixin';
+
+.slider {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+    margin-top: 130px;
+
+}
+
+.logos {
+    width: fit-content;
+    @include center;
+    animation: slide 5s linear infinite;
+}
+
+    .logos img {
+        width: 100px;
+        margin: 0 25px;
+    }
+
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}

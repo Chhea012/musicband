@@ -1,0 +1,73 @@
+// event
+
+@import '__mixin';
+.container {
+    display: flex;
+    @include row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+        width: 250px;
+        margin-bottom: 20px;
+        background: #5e5a5a;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 20px;
+        display: flex;
+        @include column;
+        align-items: center;
+        transition: transform 0.5s;
+        margin: 10px;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        .images {
+            width: 100%;
+            img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+        }
+
+        .text {
+            margin-top: 20px;
+            color: $color;
+
+            button {
+                margin-top: 10px;
+                padding: 10px 20px;
+                font-family: 'Nunito';
+                font-weight: bold;
+                background: $head-color;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-bottom: 20px;
+
+                &:hover {
+                    background: $color;
+                    color: $head-color;
+                }
+            }
+        }
+    }
+}
+
+
+// video
+
+.video-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
